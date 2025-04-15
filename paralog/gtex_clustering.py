@@ -252,7 +252,7 @@ def main():
     
     # STEP 2: Extract paralogue ENSG IDs (file 2)
     extract_paralogues_ENSG(biomart_file, "reference/paralogues_ENSG.txt")
-    print("📌 Copy the content of 'reference/paralogues_ENSG.txt' into BioMart to obtain transcripts (file 3).")
+    print(" Copy the content of 'reference/paralogues_ENSG.txt' into BioMart to obtain transcripts (file 3).")
     
     # STEP 4: Prepare the standardized transcript file (file 4)
     combine_transcripts(biomart_file, ENST_paralogs, output_file="reference/genes_list.tsv")
@@ -265,7 +265,7 @@ def main():
     try:
         gene_dic = creating_genes_dic_from_tsv(enriched_file)
     except ValueError as e:
-        print("❌ Error creating gene dictionary:", e)
+        print(" Error creating gene dictionary:", e)
         return
 
     all_transposed_data = pd.DataFrame()
