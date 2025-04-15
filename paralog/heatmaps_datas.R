@@ -19,7 +19,7 @@ library(grid)
 #                SECTION 1: READ AND PREPARE EXPRESSION DATA
 # =============================================================================
 
-# Input file: clusterdata_combined.txt (columns: Gene, Tissue, Cluster, Transcript, TPM)
+# Input file: clusterdata_combined.txt (columns: Gene, Tissue, Cluster, Transcript, TPM) (from the python script output)
 
 # 1. Read the input files
 results_list <- read_tsv("PHB/clusterdata_combined.txt", show_col_types = FALSE)
