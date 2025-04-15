@@ -28,10 +28,3 @@ This repository contains two main pipelines that complement each other for gene 
 - **Libraries**: `pandas`, `matplotlib`, `seaborn`, `numpy`, `scikit-learn` (for `StandardScaler`), `scipy` (for clustering), plus standard libraries such as `subprocess` and `os`
 
 ---
-
-## Installation and Setup
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
