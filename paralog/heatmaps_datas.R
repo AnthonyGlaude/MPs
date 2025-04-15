@@ -23,8 +23,8 @@ library(grid)
 
 # 1. Read the input files
 results_list <- read_tsv("PHB/clusterdata_combined.txt", show_col_types = FALSE)
-pseudogenes   <- read_tsv("PHB/CYCS_pseudogen.txt", show_col_types = FALSE)
-info          <- read_tsv("PHB/CYCS_information.txt", show_col_types = FALSE)
+pseudogenes   <- read_tsv("PHB/PHB_pseudogen.txt", show_col_types = FALSE)
+info          <- read_tsv("PHB/PHB_information.txt", show_col_types = FALSE)
 
 # 2. Merge info and pseudogenes to obtain MANE select data.
 # A full join keeps canonical information from 'info' and also includes pseudogenes (with extra columns as NA)
